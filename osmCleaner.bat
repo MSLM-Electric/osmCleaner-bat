@@ -15,11 +15,16 @@ cls
 ::rmdir /s /q CMakeFiles
 ::rmdir /s CMakeFiles
 ::rm -r CMakeFiles
-echo delete folder ::delete the specified folder in below (asks to push Yes of No Y/N)
-rd /s CMakeFiles   ::put here the desired folder to delete
-echo delete folder ::delete the specified folder in below (asks to push Yes of No Y/N)
-rd /s lib          ::put here the desired folder to delete
-del CMakeCache.txt ::put here the desired files to delete
+::delete the specified folder in below (asks to push Yes of No Y/N)
+echo delete folder 
+::put here the desired folder to delete
+rd /s CMakeFiles   
+::delete the specified folder in below (asks to push Yes of No Y/N)
+echo delete folder 
+::put here the desired folder to delete
+rd /s lib          
+::put here the desired files to delete
+del CMakeCache.txt 
 del libmain_lib.a
 del output.map
 del compile_commands.json

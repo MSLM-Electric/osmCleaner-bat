@@ -6,7 +6,7 @@ set /p menu="click (Y or N) to process (Y/N):"
 if %menu%==Y goto Yes
 if %menu%==y goto Yes
 if %menu%==N goto No
-if %menu%==n goto no
+if %menu%==n goto No
 cls
 
 :Yes
